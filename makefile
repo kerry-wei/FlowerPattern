@@ -7,7 +7,6 @@ NAME = "FlowerPatternMain"
 all:
 	@echo "Compiling..."
 	javac -cp vecmath-1.5.1.jar *.java
-
 # HACK: adding vecmath to classpath regardless if needed
 # Windows users: you may have to change the colon to a semi-colon in the 
 # class path param below. Make sure to change it back, so your submission
